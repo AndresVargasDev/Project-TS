@@ -12,7 +12,7 @@ const List = ({ subs }: Props) => {
           <li key={sub.nick}>
             <img src={sub.avatar} alt={`Avatar from ${sub.nick}`} />
             <h4>{sub.nick}</h4>
-            <small>{sub.subMonts}</small>
+            <small>{sub.subMonths}</small>
             <p>{sub.description?.substring(0, 100)}</p>
           </li>
         );

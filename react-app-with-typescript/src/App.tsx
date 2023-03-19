@@ -12,13 +12,13 @@ interface AppState {
 const INITIAL_STATE = [
   {
     nick: "Andres",
-    subMonts: 3,
+    subMonths: 3,
     avatar: "https://i.pravatar.cc/150?u=Andres",
     description: "Andres es Henry Student",
   },
   {
     nick: "Fabio",
-    subMonts: 9,
+    subMonths: 9,
     avatar: "https://i.pravatar.cc/150?u=Fabio",
   },
 ];
